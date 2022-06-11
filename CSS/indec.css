@@ -1,0 +1,141 @@
+body {
+  background-color: #effffe;
+}
+
+#wrap {
+  width: 790px;
+  height: 100%;
+  margin: auto;
+}
+
+#wrap .gallery-title {
+  text-align: center;
+}
+
+#wrap img {
+  width: 200px;
+  padding: 10px 0;
+}
+
+#wrap .gallery-top {
+  background-color: #daffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#wrap .gallery-bottom {
+  background-color: #daffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#wrap .lightbox-gallery-top {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#wrap .lightbox-gallery-top img {
+  width: 100px;
+}
+
+#wrap .lightbox-gallery-bottom {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#wrap .lightbox-gallery-bottom img {
+  width: 100px;
+}
+
+#wrap .bx-wrapper {
+  margin: 0 auto 50px auto;
+  padding-bottom: 15px;
+}
+
+#wrap .bx-wrapper .bxslider1 {
+  text-align: center;
+}
+
+#wrap .bx-wrapper .bxslider1 img {
+  width: 100%;
+  padding: 0 0 0 0;
+}
+
+#wrap .bx-wrapper .bxslider2 {
+  text-align: center;
+}
+
+#wrap .bx-wrapper .bxslider2 img {
+  width: 640px;
+  padding: 0 0 0 0;
+  margin: auto;
+}
+
+#wrap .box {
+  background-color: #eeeeee;
+  padding-top: 20px;
+}
+
+#wrap .box .bxslider_thumbnail {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  margin-left: 4%;
+}
+
+#wrap .box .bxslider_thumbnail img {
+  opacity: 0.7;
+  padding: 0;
+  width: 150px;
+}
+
+#wrap .box .bxslider_thumbnail .active img {
+  opacity: 1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: solid black 2px;
+}
+
+#wrap .box .bxslider_thumbnail a {
+  margin: 10px 5px;
+}
+
+#wrap .box .bxslider_thumbnail > li {
+  width: calc(100% / 4);
+}
+
+#wrap .box .bxslider_thumbnail > li > a {
+  display: block;
+  position: relative;
+}
+
+#wrap .box .bxslider_thumbnail > li > a > img {
+  top: 0px;
+}
+/*# sourceMappingURL=indec.css.map */
